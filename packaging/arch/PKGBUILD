@@ -1,0 +1,20 @@
+# Maintainer: Raoul Zebisch
+# Build from a local checkout:  cd packaging/arch && makepkg -si
+pkgname=durtleshells
+pkgver=0.1.0
+pkgrel=1
+pkgdesc="Vim-style terminal WaniKani client with a flick keyboard, inspired by Smouldering Durtles"
+arch=('any')
+license=('MIT')
+depends=('python' 'python-textual' 'python-httpx' 'python-platformdirs' 'python-tomli-w' 'python-rapidfuzz')
+makedepends=('python-build' 'python-installer' 'python-hatchling')
+source=()
+
+build() {
+  cd "$startdir/../.."
+  python -m build --wheel --no-isolation --outdir "$srcdir/dist"
+}
+
+package() {
+  python -m installer --destdir="$pkgdir" "$srcdir"/dist/*.whl
+}

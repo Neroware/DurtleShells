@@ -1,0 +1,1493 @@
+[
+ {
+  "id": 1,
+  "object": "radical",
+  "url": "https://api.wanikani.com/v2/subjects/1",
+  "data_updated_at": "2026-10-02T00:07:31.186411Z",
+  "data": {
+   "created_at": "2012-02-27T18:08:16.000000Z",
+   "level": 1,
+   "slug": "ground",
+   "hidden_at": null,
+   "document_url": "https://www.wanikani.com/radicals/ground",
+   "characters": "一",
+   "character_images": [
+    {
+     "url": "https://files.wanikani.com/wahfwljxcm2sxrvl4ehldujuh65v",
+     "metadata": {
+      "inline_styles": true
+     },
+     "content_type": "image/svg+xml"
+    },
+    {
+     "url": "https://files.wanikani.com/4lxmimfbwuvl07s11dq0f9til0mb",
+     "metadata": {
+      "color": "#000000",
+      "dimensions": "1024x1024",
+      "style_name": "original"
+     },
+     "content_type": "image/png"
+    },
+    {
+     "url": "https://files.wanikani.com/3n3dlzyjjgou47qb4h4uewghcfcx",
+     "metadata": {
+      "color": "#000000",
+      "dimensions": "1024x1024",
+      "style_name": "1024px"
+     },
+     "content_type": "image/png"
+    },
+    {
+     "url": "https://files.wanikani.com/9d5fax4vrjp28vms1jb11ouu37vi",
+     "metadata": {
+      "color": "#000000",
+      "dimensions": "512x512",
+      "style_name": "512px"
+     },
+     "content_type": "image/png"
+    },
+    {
+     "url": "https://files.wanikani.com/gfwzjl41i5v5oiwrsjz5zz957nww",
+     "metadata": {
+      "color": "#000000",
+      "dimensions": "256x256",
+      "style_name": "256px"
+     },
+     "content_type": "image/png"
+    },
+    {
+     "url": "https://files.wanikani.com/m79ver1yfujpkcfa0bo5tcueuxk3",
+     "metadata": {
+      "color": "#000000",
+      "dimensions": "128x128",
+      "style_name": "128px"
+     },
+     "content_type": "image/png"
+    },
+    {
+     "url": "https://files.wanikani.com/gcqkjhbw9aguieat8yrqxz09qszn",
+     "metadata": {
+      "color": "#000000",
+      "dimensions": "64x64",
+      "style_name": "64px"
+     },
+     "content_type": "image/png"
+    },
+    {
+     "url": "https://files.wanikani.com/7czfgjlgsjxx8sndvfkezts6ugj1",
+     "metadata": {
+      "color": "#000000",
+      "dimensions": "32x32",
+      "style_name": "32px"
+     },
+     "content_type": "image/png"
+    }
+   ],
+   "meanings": [
+    {
+     "meaning": "Ground",
+     "primary": true,
+     "accepted_answer": true
+    }
+   ],
+   "auxiliary_meanings": [],
+   "amalgamation_subject_ids": [
+    440,
+    449,
+    450,
+    451,
+    468,
+    488,
+    495,
+    531,
+    533,
+    568,
+    590,
+    609,
+    633,
+    635,
+    709,
+    710,
+    724,
+    783,
+    808,
+    885,
+    913,
+    932,
+    965,
+    971,
+    1000,
+    1020,
+    1085,
+    1119,
+    1126,
+    1137,
+    1178,
+    1198,
+    1241,
+    1249,
+    1310,
+    1326,
+    1340,
+    1367,
+    1372,
+    1376,
+    1379,
+    1428,
+    1431,
+    1463,
+    1491,
+    1521,
+    1559,
+    1591,
+    1655,
+    1769,
+    1851,
+    1855,
+    1869,
+    1888,
+    2085,
+    2104,
+    2128,
+    2138,
+    2148,
+    2171,
+    2172,
+    2182,
+    2212,
+    2277,
+    2334,
+    2375,
+    2419,
+    2437
+   ],
+   "meaning_mnemonic": "This radical consists of a single, horizontal stroke. What's the biggest, single, horizontal stroke? That's the <radical>ground</radical>. Look at the ground, look at this radical, now look at the ground again. Kind of the same, right?",
+   "lesson_position": 0,
+   "spaced_repetition_system_id": 2
+  }
+ },
+ {
+  "id": 18,
+  "object": "radical",
+  "url": "https://api.wanikani.com/v2/subjects/18",
+  "data_updated_at": "2026-10-02T00:07:31.186411Z",
+  "data": {
+   "created_at": "2012-02-27T18:43:11.000000Z",
+   "level": 1,
+   "slug": "big",
+   "hidden_at": null,
+   "document_url": "https://www.wanikani.com/radicals/big",
+   "characters": "大",
+   "character_images": [
+    {
+     "url": "https://files.wanikani.com/o8qt4phtsv2aoolm7lav2cv4rrsp",
+     "metadata": {
+      "inline_styles": true
+     },
+     "content_type": "image/svg+xml"
+    },
+    {
+     "url": "https://files.wanikani.com/f22uoyxegj31llkd8okz9gp76sre",
+     "metadata": {
+      "color": "#000000",
+      "dimensions": "1024x1024",
+      "style_name": "original"
+     },
+     "content_type": "image/png"
+    },
+    {
+     "url": "https://files.wanikani.com/bqzjwwbj0vuimqzjrkxnk88q0e08",
+     "metadata": {
+      "color": "#000000",
+      "dimensions": "1024x1024",
+      "style_name": "1024px"
+     },
+     "content_type": "image/png"
+    },
+    {
+     "url": "https://files.wanikani.com/xc2vvy9j8aat9vodhjq1i8cini72",
+     "metadata": {
+      "color": "#000000",
+      "dimensions": "512x512",
+      "style_name": "512px"
+     },
+     "content_type": "image/png"
+    },
+    {
+     "url": "https://files.wanikani.com/tcs7rbf8gq3eleu83tns8wmlwabe",
+     "metadata": {
+      "color": "#000000",
+      "dimensions": "256x256",
+      "style_name": "256px"
+     },
+     "content_type": "image/png"
+    },
+    {
+     "url": "https://files.wanikani.com/t7mkh0upjyzsss0ia0o4hzc6hs25",
+     "metadata": {
+      "color": "#000000",
+      "dimensions": "128x128",
+      "style_name": "128px"
+     },
+     "content_type": "image/png"
+    },
+    {
+     "url": "https://files.wanikani.com/mghcaxbkre73rhxmdljplhymr1jg",
+     "metadata": {
+      "color": "#000000",
+      "dimensions": "64x64",
+      "style_name": "64px"
+     },
+     "content_type": "image/png"
+    },
+    {
+     "url": "https://files.wanikani.com/qnt3zmryribevlbqr83gpl9wic0e",
+     "metadata": {
+      "color": "#000000",
+      "dimensions": "32x32",
+      "style_name": "32px"
+     },
+     "content_type": "image/png"
+    }
+   ],
+   "meanings": [
+    {
+     "meaning": "Big",
+     "primary": true,
+     "accepted_answer": true
+    }
+   ],
+   "auxiliary_meanings": [],
+   "amalgamation_subject_ids": [
+    453,
+    732,
+    876,
+    899,
+    1010,
+    1034,
+    1055,
+    1111,
+    1195,
+    1304,
+    1483,
+    1620,
+    1624,
+    1653,
+    1669,
+    1689,
+    1727,
+    1883,
+    1897,
+    1970,
+    2005,
+    2079,
+    2105,
+    2142,
+    2207,
+    2346,
+    2373,
+    2400,
+    2415
+   ],
+   "meaning_mnemonic": "This radical looks just like a stick figure—more specifically, a really <radical>big</radical> guy with his arms stretched out nice and big. When you see this radical, just think big, because this guy is really BIG!",
+   "lesson_position": 7,
+   "spaced_repetition_system_id": 2
+  }
+ },
+ {
+  "id": 440,
+  "object": "kanji",
+  "url": "https://api.wanikani.com/v2/subjects/440",
+  "data_updated_at": "2026-10-15T00:40:18.309637Z",
+  "data": {
+   "created_at": "2012-02-27T19:55:19.000000Z",
+   "level": 1,
+   "slug": "一",
+   "hidden_at": null,
+   "document_url": "https://www.wanikani.com/kanji/%E4%B8%80",
+   "characters": "一",
+   "meanings": [
+    {
+     "meaning": "One",
+     "primary": true,
+     "accepted_answer": true
+    }
+   ],
+   "auxiliary_meanings": [
+    {
+     "meaning": "1",
+     "type": "whitelist"
+    }
+   ],
+   "readings": [
+    {
+     "reading": "いち",
+     "primary": true,
+     "accepted_answer": true,
+     "type": "onyomi"
+    },
+    {
+     "reading": "いつ",
+     "primary": false,
+     "accepted_answer": true,
+     "type": "onyomi"
+    },
+    {
+     "reading": "ひと",
+     "primary": false,
+     "accepted_answer": false,
+     "type": "kunyomi"
+    },
+    {
+     "reading": "かず",
+     "primary": false,
+     "accepted_answer": false,
+     "type": "nanori"
+    }
+   ],
+   "component_subject_ids": [
+    1
+   ],
+   "amalgamation_subject_ids": [
+    2467,
+    2468,
+    2477,
+    2510,
+    2544,
+    2588,
+    2627,
+    2660,
+    2665,
+    2672,
+    2679,
+    2721,
+    2730,
+    2751,
+    2959,
+    3048,
+    3256,
+    3335,
+    3348,
+    3349,
+    3372,
+    3481,
+    3527,
+    3528,
+    3656,
+    3663,
+    4133,
+    4173,
+    4258,
+    4282,
+    4563,
+    4615,
+    4701,
+    4823,
+    4906,
+    5050,
+    5224,
+    5237,
+    5349,
+    5362,
+    5838,
+    6010,
+    6029,
+    6150,
+    6169,
+    6209,
+    6210,
+    6346,
+    6584,
+    6614,
+    6723,
+    6811,
+    6851,
+    7037,
+    7293,
+    7305,
+    7451,
+    7561,
+    7617,
+    7734,
+    7780,
+    7927,
+    8209,
+    8214,
+    8414,
+    8456,
+    8583,
+    8709,
+    8896,
+    8921,
+    9056,
+    9103,
+    9166,
+    9268,
+    9286,
+    9305,
+    9306,
+    9331,
+    9488
+   ],
+   "visually_similar_subject_ids": [],
+   "meaning_mnemonic": "Lying on the <radical>ground</radical> is something that looks just like the ground, the number <kanji>One</kanji>. Why is this One lying down? It's been shot by the number two. It's lying there, bleeding out and dying. The number One doesn't have long to live.",
+   "meaning_hint": "To remember the meaning of <kanji>One</kanji>, imagine yourself there at the scene of the crime. You grab <kanji>One</kanji> in your arms, trying to prop it up, trying to hear its last words. Instead, it just splatters some blood on your face. \"Who did this to you?\" you ask. The number One points weakly, and you see number Two running off into an alleyway. He's always been jealous of number One and knows he can be number one now that he's taken the real number one out.",
+   "reading_mnemonic": "As you're sitting there next to <kanji>One</kanji>, holding him up, you start feeling a weird sensation all over your skin. From the wound comes a fine powder (obviously coming from the special bullet used to kill One) that causes the person it touches to get extremely <reading>itchy</reading> (いち).",
+   "reading_hint": "Make sure you feel the ridiculously <reading>itchy</reading> sensation covering your body. It climbs from your hands, where you're holding the number <kanji>One</kanji> up, and then goes through your arms, crawls up your neck, goes down your body, and then covers everything. It becomes uncontrollable, and you're scratching everywhere, writhing on the ground. It's so itchy that it's the most painful thing you've ever experienced (you should imagine this vividly, so you remember the reading of this kanji).",
+   "lesson_position": 25,
+   "spaced_repetition_system_id": 2
+  }
+ },
+ {
+  "id": 444,
+  "object": "kanji",
+  "url": "https://api.wanikani.com/v2/subjects/444",
+  "data_updated_at": "2026-10-15T15:52:20.519046Z",
+  "data": {
+   "created_at": "2012-02-27T22:41:23.000000Z",
+   "level": 1,
+   "slug": "人",
+   "hidden_at": null,
+   "document_url": "https://www.wanikani.com/kanji/%E4%BA%BA",
+   "characters": "人",
+   "meanings": [
+    {
+     "meaning": "Person",
+     "primary": true,
+     "accepted_answer": true
+    }
+   ],
+   "auxiliary_meanings": [
+    {
+     "meaning": "People",
+     "type": "whitelist"
+    }
+   ],
+   "readings": [
+    {
+     "reading": "にん",
+     "primary": true,
+     "accepted_answer": true,
+     "type": "onyomi"
+    },
+    {
+     "reading": "じん",
+     "primary": false,
+     "accepted_answer": true,
+     "type": "onyomi"
+    },
+    {
+     "reading": "ひと",
+     "primary": false,
+     "accepted_answer": false,
+     "type": "kunyomi"
+    },
+    {
+     "reading": "と",
+     "primary": false,
+     "accepted_answer": false,
+     "type": "kunyomi"
+    }
+   ],
+   "component_subject_ids": [
+    9
+   ],
+   "amalgamation_subject_ids": [
+    2475,
+    2476,
+    2477,
+    2478,
+    2479,
+    2488,
+    2502,
+    2582,
+    2604,
+    2632,
+    2655,
+    2674,
+    2691,
+    2715,
+    2719,
+    2782,
+    2887,
+    2989,
+    2995,
+    3014,
+    3061,
+    3069,
+    3141,
+    3202,
+    3232,
+    3254,
+    3264,
+    3356,
+    3358,
+    3402,
+    3407,
+    3412,
+    3420,
+    3452,
+    3540,
+    3606,
+    3621,
+    3699,
+    3708,
+    3724,
+    3748,
+    3793,
+    3862,
+    3898,
+    3899,
+    3907,
+    3936,
+    4130,
+    4153,
+    4158,
+    4203,
+    4257,
+    4305,
+    4344,
+    4365,
+    4385,
+    4433,
+    4909,
+    4964,
+    4982,
+    4985,
+    5014,
+    5144,
+    5224,
+    5474,
+    5510,
+    5524,
+    5733,
+    6029,
+    6154,
+    6209,
+    6260,
+    6283,
+    6450,
+    6613,
+    6870,
+    7218,
+    7462,
+    7465,
+    7517,
+    7560,
+    7757,
+    7783,
+    8005,
+    8255,
+    8384,
+    8551,
+    8604,
+    8659,
+    8735,
+    8805,
+    8987,
+    9042,
+    9155,
+    9309
+   ],
+   "visually_similar_subject_ids": [
+    445
+   ],
+   "meaning_mnemonic": "Remember how the radical version of this kanji meant <radical>person</radical> because it looks like a person with their arms down and their legs spread out? Well this is a <kanji>person</kanji> too!",
+   "meaning_hint": "Know the radicals, and you shall know the kanji.",
+   "reading_mnemonic": "Only one <kanji>person</kanji> at <reading>Nin</reading>tendo (にん) complained about the new <reading>jean</reading>s (じん) policy, and that person was you.",
+   "reading_hint": "Imagine how angry you were about the policy. You'll have to come up with something to be angry about yourself (pick something that would actually make you angry, like maybe you're only allowed to wear cut off short-shorts jeans at Nintendo now), but if you pick something good, you'll definitely remember the two readings for this. Just remember you're working at Nintendo, and the policy has to be something about jeans. Then, imagine yourself as the only person complaining and everyone else in their dumb jeans (or lack-thereof) shaking their head at you because you're being a fool.",
+   "lesson_position": 29,
+   "spaced_repetition_system_id": 2
+  }
+ },
+ {
+  "id": 453,
+  "object": "kanji",
+  "url": "https://api.wanikani.com/v2/subjects/453",
+  "data_updated_at": "2026-10-02T00:07:31.186411Z",
+  "data": {
+   "created_at": "2012-02-28T01:54:53.000000Z",
+   "level": 1,
+   "slug": "大",
+   "hidden_at": null,
+   "document_url": "https://www.wanikani.com/kanji/%E5%A4%A7",
+   "characters": "大",
+   "meanings": [
+    {
+     "meaning": "Big",
+     "primary": true,
+     "accepted_answer": true
+    },
+    {
+     "meaning": "Large",
+     "primary": false,
+     "accepted_answer": true
+    }
+   ],
+   "auxiliary_meanings": [],
+   "readings": [
+    {
+     "reading": "たい",
+     "primary": true,
+     "accepted_answer": true,
+     "type": "onyomi"
+    },
+    {
+     "reading": "だい",
+     "primary": false,
+     "accepted_answer": true,
+     "type": "onyomi"
+    },
+    {
+     "reading": "おお",
+     "primary": false,
+     "accepted_answer": false,
+     "type": "kunyomi"
+    },
+    {
+     "reading": "ひろ",
+     "primary": false,
+     "accepted_answer": false,
+     "type": "nanori"
+    }
+   ],
+   "component_subject_ids": [
+    18
+   ],
+   "amalgamation_subject_ids": [
+    2499,
+    2500,
+    2501,
+    2502,
+    2602,
+    2661,
+    2741,
+    2792,
+    2812,
+    2815,
+    3001,
+    3016,
+    3085,
+    3332,
+    3436,
+    3581,
+    3731,
+    3751,
+    3918,
+    3952,
+    4052,
+    4129,
+    4206,
+    4249,
+    4405,
+    4525,
+    4536,
+    4727,
+    4842,
+    4868,
+    4987,
+    5013,
+    5045,
+    5193,
+    5202,
+    5259,
+    5274,
+    5424,
+    5425,
+    5481,
+    5518,
+    5642,
+    5823,
+    5961,
+    6085,
+    6822,
+    7035,
+    7077,
+    7151,
+    7224,
+    7304,
+    7416,
+    7528,
+    7609,
+    7676,
+    7784,
+    7915,
+    7974,
+    8270,
+    8401,
+    8559,
+    8574,
+    8576,
+    8659,
+    8661,
+    8666,
+    8668,
+    8694,
+    9029,
+    9102,
+    9358,
+    9485
+   ],
+   "visually_similar_subject_ids": [
+    505,
+    481
+   ],
+   "meaning_mnemonic": "The <radical>big</radical> radical and the <kanji>big</kanji> kanji are exactly the same!",
+   "meaning_hint": "So, if you know the radical, you know the meaning of this kanji as well.",
+   "reading_mnemonic": "There's this big guy (that's how you remember the radical, remember?), and he's wearing a huge <reading>Tie Dye</reading> (たい, だい) shirt. Because he's so huge, the tie dye shirt is also super huge. Everything about him is pretty big, but the tie dye stands out more than anything.",
+   "reading_hint": "When you look at the big guy in your head, imagine him covered in tie dye head to toe. Think about how ridiculous it looks on him, especially since he's such a big guy. Shirt. Sweatpants. Hat. Shoes... it goes on and on.",
+   "lesson_position": 39,
+   "spaced_repetition_system_id": 2
+  }
+ },
+ {
+  "id": 2475,
+  "object": "vocabulary",
+  "url": "https://api.wanikani.com/v2/subjects/2475",
+  "data_updated_at": "2026-10-02T00:07:31.186411Z",
+  "data": {
+   "created_at": "2012-02-28T08:14:35.000000Z",
+   "level": 1,
+   "slug": "人",
+   "hidden_at": null,
+   "document_url": "https://www.wanikani.com/vocabulary/%E4%BA%BA",
+   "characters": "人",
+   "meanings": [
+    {
+     "meaning": "Person",
+     "primary": true,
+     "accepted_answer": true
+    }
+   ],
+   "auxiliary_meanings": [],
+   "readings": [
+    {
+     "reading": "ひと",
+     "primary": true,
+     "accepted_answer": true
+    }
+   ],
+   "parts_of_speech": [
+    "noun"
+   ],
+   "component_subject_ids": [
+    444
+   ],
+   "meaning_mnemonic": "When a vocab is a single kanji all alone, it usually has the same meaning as its kanji parent. That goes for this vocab word as well. <kanji>Person</kanji> is <vocabulary>person</vocabulary>.",
+   "reading_mnemonic": "When a vocab is a single kanji and all alone like this, it's usually going to use the kun'yomi. Since you don't know the kun'yomi reading for this kanji yet, let's use a mnemonic to learn it.\n\nWhat does a <vocabulary>person</vocabulary> hate more than anything? They hate extreme <reading>heat</reading> (ひと). You can always put on more clothes to stay warm, but when the heat gets too high, you can only take off so much.",
+   "context_sentences": [
+    {
+     "en": "This person is Koichi.",
+     "ja": "この人がコウイチです。"
+    },
+    {
+     "en": "Is that person a cleaning person?",
+     "ja": "あの人はクリーニングの人ですか？"
+    },
+    {
+     "en": "There were many people on Mt. Fuji.",
+     "ja": "ふじ山の上には、たくさん人がいましたよ。"
+    }
+   ],
+   "pronunciation_audios": [
+    {
+     "url": "https://files.wanikani.com/hv2jcn9clnxb0xuhn7ib462sdxk5",
+     "metadata": {
+      "gender": "female",
+      "source_id": 21609,
+      "pronunciation": "ひと",
+      "voice_actor_id": 1,
+      "voice_actor_name": "Kyoko",
+      "voice_description": "Tokyo accent"
+     },
+     "content_type": "audio/webm"
+    },
+    {
+     "url": "https://files.wanikani.com/t54ekt8hobgwg8c5tqi3hzwxw2s7",
+     "metadata": {
+      "gender": "male",
+      "source_id": 2691,
+      "pronunciation": "ひと",
+      "voice_actor_id": 2,
+      "voice_actor_name": "Kenichi",
+      "voice_description": "Tokyo accent"
+     },
+     "content_type": "audio/webm"
+    },
+    {
+     "url": "https://files.wanikani.com/34unyx2om2q84y9my1n6d3aaefwj",
+     "metadata": {
+      "gender": "male",
+      "source_id": 2691,
+      "pronunciation": "ひと",
+      "voice_actor_id": 2,
+      "voice_actor_name": "Kenichi",
+      "voice_description": "Tokyo accent"
+     },
+     "content_type": "audio/mpeg"
+    },
+    {
+     "url": "https://files.wanikani.com/t4ul9yltaanq891gmvii45srdwy4",
+     "metadata": {
+      "gender": "female",
+      "source_id": 21609,
+      "pronunciation": "ひと",
+      "voice_actor_id": 1,
+      "voice_actor_name": "Kyoko",
+      "voice_description": "Tokyo accent"
+     },
+     "content_type": "audio/mpeg"
+    }
+   ],
+   "lesson_position": 51,
+   "spaced_repetition_system_id": 2
+  }
+ },
+ {
+  "id": 2477,
+  "object": "vocabulary",
+  "url": "https://api.wanikani.com/v2/subjects/2477",
+  "data_updated_at": "2026-10-02T00:07:31.186411Z",
+  "data": {
+   "created_at": "2012-02-28T08:15:02.000000Z",
+   "level": 1,
+   "slug": "一人",
+   "hidden_at": null,
+   "document_url": "https://www.wanikani.com/vocabulary/%E4%B8%80%E4%BA%BA",
+   "characters": "一人",
+   "meanings": [
+    {
+     "meaning": "Alone",
+     "primary": true,
+     "accepted_answer": true
+    },
+    {
+     "meaning": "One Person",
+     "primary": false,
+     "accepted_answer": true
+    }
+   ],
+   "auxiliary_meanings": [
+    {
+     "meaning": "1 Person",
+     "type": "whitelist"
+    }
+   ],
+   "readings": [
+    {
+     "reading": "ひとり",
+     "primary": true,
+     "accepted_answer": true
+    }
+   ],
+   "parts_of_speech": [
+    "noun"
+   ],
+   "component_subject_ids": [
+    440,
+    444
+   ],
+   "meaning_mnemonic": "When there's <kanji>one</kanji> <kanji>person</kanji>, what are they? Well, they're either just going to be simply <vocabulary>one person</vocabulary> or <vocabulary>alone</vocabulary>.",
+   "reading_mnemonic": "The reading for this vocab doesn't follow any rules you learned previously. It's an exception, which means you have to learn the reading separately too. Spend a few moments trying to remember this word, look away for 10 seconds, and then try to recall its reading. Could you do it? Try again, this time in thirty seconds. Did you do it again? Okay, go ahead and move on. You may know it now, though you'll need to recall it again in the next 5-10 minutes if you want to remember it for good.\n\nAlternatively, if you know the reading for the vocab word 一つ (in the same level as this word), you can know that it uses the same reading!",
+   "context_sentences": [
+    {
+     "en": "I went to karaoke alone.",
+     "ja": "一人でカラオケにいきました。"
+    },
+    {
+     "en": "I'm by myself, so I'm fine with a counter seat.",
+     "ja": "一人なので、カウンターでもいいですよ。"
+    },
+    {
+     "en": "For the first time, I went for a drive alone.",
+     "ja": "はじめて一人でドライブにいった。"
+    }
+   ],
+   "pronunciation_audios": [
+    {
+     "url": "https://files.wanikani.com/f8kec9ync0rpvw85mmb7lcks38oo",
+     "metadata": {
+      "gender": "male",
+      "source_id": 2713,
+      "pronunciation": "ひとり",
+      "voice_actor_id": 2,
+      "voice_actor_name": "Kenichi",
+      "voice_description": "Tokyo accent"
+     },
+     "content_type": "audio/mpeg"
+    },
+    {
+     "url": "https://files.wanikani.com/2ut3doo88twejzftui6sq80xa9rj",
+     "metadata": {
+      "gender": "male",
+      "source_id": 2713,
+      "pronunciation": "ひとり",
+      "voice_actor_id": 2,
+      "voice_actor_name": "Kenichi",
+      "voice_description": "Tokyo accent"
+     },
+     "content_type": "audio/webm"
+    },
+    {
+     "url": "https://files.wanikani.com/aozrzuoyhdtpnev2m8rf4onhbrlj",
+     "metadata": {
+      "gender": "female",
+      "source_id": 21632,
+      "pronunciation": "ひとり",
+      "voice_actor_id": 1,
+      "voice_actor_name": "Kyoko",
+      "voice_description": "Tokyo accent"
+     },
+     "content_type": "audio/webm"
+    },
+    {
+     "url": "https://files.wanikani.com/pw5uohiopz1oy62n7vc200jitsj3",
+     "metadata": {
+      "gender": "female",
+      "source_id": 21632,
+      "pronunciation": "ひとり",
+      "voice_actor_id": 1,
+      "voice_actor_name": "Kyoko",
+      "voice_description": "Tokyo accent"
+     },
+     "content_type": "audio/mpeg"
+    }
+   ],
+   "lesson_position": 53,
+   "spaced_repetition_system_id": 2
+  }
+ },
+ {
+  "id": 2505,
+  "object": "vocabulary",
+  "url": "https://api.wanikani.com/v2/subjects/2505",
+  "data_updated_at": "2026-10-02T00:07:31.186411Z",
+  "data": {
+   "created_at": "2012-02-28T08:20:27.000000Z",
+   "level": 1,
+   "slug": "ふじ山",
+   "hidden_at": null,
+   "document_url": "https://www.wanikani.com/vocabulary/%E3%81%B5%E3%81%98%E5%B1%B1",
+   "characters": "ふじ山",
+   "meanings": [
+    {
+     "meaning": "Mt Fuji",
+     "primary": true,
+     "accepted_answer": true
+    },
+    {
+     "meaning": "Mount Fuji",
+     "primary": false,
+     "accepted_answer": true
+    },
+    {
+     "meaning": "Mt. Fuji",
+     "primary": false,
+     "accepted_answer": true
+    }
+   ],
+   "auxiliary_meanings": [],
+   "readings": [
+    {
+     "reading": "ふじさん",
+     "primary": true,
+     "accepted_answer": true
+    }
+   ],
+   "parts_of_speech": [
+    "proper noun"
+   ],
+   "component_subject_ids": [
+    455
+   ],
+   "meaning_mnemonic": "Just look at this word. What do you think it means? That's right - it's a name (Fuji) plus the kanji for <kanji>mountain</kanji>. Put those together, and you have <vocabulary>Mount Fuji</vocabulary>. In English the \"Mount(ain)\" part comes first. In Japanese, it comes at the end, sort of like the name ender さん, ちゃん, and so on. You can add 山 to the end of any mountain's name too, not just Mount Fuji.",
+   "reading_mnemonic": "Normally ふじ would be in kanji, but I wanted you to see this kanji use in action since it's more useful than just being used on Mount Fuji. This is treated like a jukugo word (combo kanji word). In the case of jukugo, usually the on'yomi reading is used, meaning you just have to remember the on'yomi reading of 山. Luckily, you learned this when you were learning the kanji, so you should already know it! ",
+   "context_sentences": [
+    {
+     "en": "Oh, it's Mt. Fuji!",
+     "ja": "あっ、ふじ山だ！"
+    },
+    {
+     "en": "Is Mt. Everest bigger than Mt. Fuji?",
+     "ja": "エベレスト山は、ふじ山より大きいですか？"
+    },
+    {
+     "en": "I want to propose to my girlfriend on the top of Mt. Fuji someday.",
+     "ja": "いつかガールフレンドにふじ山の上でプロポーズをしたいんです。"
+    }
+   ],
+   "pronunciation_audios": [
+    {
+     "url": "https://files.wanikani.com/g2ek8wo5fi1jpbao6qd68ni34n59",
+     "metadata": {
+      "gender": "female",
+      "source_id": 21626,
+      "pronunciation": "ふじさん",
+      "voice_actor_id": 1,
+      "voice_actor_name": "Kyoko",
+      "voice_description": "Tokyo accent"
+     },
+     "content_type": "audio/mpeg"
+    },
+    {
+     "url": "https://files.wanikani.com/dfprvtot9u7t57ehy1dxlhvfm7rv",
+     "metadata": {
+      "gender": "female",
+      "source_id": 21626,
+      "pronunciation": "ふじさん",
+      "voice_actor_id": 1,
+      "voice_actor_name": "Kyoko",
+      "voice_description": "Tokyo accent"
+     },
+     "content_type": "audio/webm"
+    },
+    {
+     "url": "https://files.wanikani.com/m9rexxgxjqtey3y37pcvczip6ook",
+     "metadata": {
+      "gender": "male",
+      "source_id": 21561,
+      "pronunciation": "ふじさん",
+      "voice_actor_id": 2,
+      "voice_actor_name": "Kenichi",
+      "voice_description": "Tokyo accent"
+     },
+     "content_type": "audio/webm"
+    },
+    {
+     "url": "https://files.wanikani.com/ylih26vmhtqzhs3nf8vwgt560u3j",
+     "metadata": {
+      "gender": "male",
+      "source_id": 21561,
+      "pronunciation": "ふじさん",
+      "voice_actor_id": 2,
+      "voice_actor_name": "Kenichi",
+      "voice_description": "Tokyo accent"
+     },
+     "content_type": "audio/mpeg"
+    }
+   ],
+   "lesson_position": 75,
+   "spaced_repetition_system_id": 2
+  }
+ },
+ {
+  "id": 9178,
+  "object": "kana_vocabulary",
+  "url": "https://api.wanikani.com/v2/subjects/9178",
+  "data_updated_at": "2026-10-02T00:07:31.186411Z",
+  "data": {
+   "created_at": "2023-03-14T14:26:53.746650Z",
+   "level": 2,
+   "slug": "ホテル",
+   "hidden_at": null,
+   "document_url": "https://www.wanikani.com/vocabulary/%E3%83%9B%E3%83%86%E3%83%AB",
+   "characters": "ホテル",
+   "meanings": [
+    {
+     "meaning": "Hotel",
+     "primary": true,
+     "accepted_answer": true
+    }
+   ],
+   "auxiliary_meanings": [
+    {
+     "meaning": "Hotels",
+     "type": "whitelist"
+    }
+   ],
+   "parts_of_speech": [
+    "noun"
+   ],
+   "meaning_mnemonic": "ホテル comes from the English word <vocabulary>hotel</vocabulary> and the meaning is exactly the same!\n\nThe only thing to watch out for is that the \"l\" on the end becomes ル, because that's the closest sound in Japanese.",
+   "context_sentences": [
+    {
+     "en": "Did you book a hotel already?",
+     "ja": "ホテル、もうとった？"
+    },
+    {
+     "en": "I'm just about to check out of the hotel.",
+     "ja": "今、ホテルをチェックアウトするところ。"
+    },
+    {
+     "en": "Which hotel will you stay at?",
+     "ja": "どこのホテルにステイするの？"
+    }
+   ],
+   "pronunciation_audios": [
+    {
+     "url": "https://files.wanikani.com/btv98fatnwncjsciv4o021lw0663",
+     "metadata": {
+      "gender": "male",
+      "source_id": 44812,
+      "pronunciation": "ホテル",
+      "voice_actor_id": 2,
+      "voice_actor_name": "Kenichi",
+      "voice_description": "Tokyo accent"
+     },
+     "content_type": "audio/webm"
+    },
+    {
+     "url": "https://files.wanikani.com/ntffqzug4r630nmo8n2r7eoi15n1",
+     "metadata": {
+      "gender": "male",
+      "source_id": 44812,
+      "pronunciation": "ホテル",
+      "voice_actor_id": 2,
+      "voice_actor_name": "Kenichi",
+      "voice_description": "Tokyo accent"
+     },
+     "content_type": "audio/mpeg"
+    },
+    {
+     "url": "https://files.wanikani.com/rzkl70cr1io8ngp7phofmwyvcc9f",
+     "metadata": {
+      "gender": "female",
+      "source_id": 44744,
+      "pronunciation": "ホテル",
+      "voice_actor_id": 1,
+      "voice_actor_name": "Kyoko",
+      "voice_description": "Tokyo accent"
+     },
+     "content_type": "audio/webm"
+    },
+    {
+     "url": "https://files.wanikani.com/xskv4hvqktrnd1mfok7d4xonu7yq",
+     "metadata": {
+      "gender": "female",
+      "source_id": 44744,
+      "pronunciation": "ホテル",
+      "voice_actor_id": 1,
+      "voice_actor_name": "Kyoko",
+      "voice_description": "Tokyo accent"
+     },
+     "content_type": "audio/mpeg"
+    }
+   ],
+   "lesson_position": 77,
+   "spaced_repetition_system_id": 2
+  }
+ },
+ {
+  "id": 9179,
+  "object": "kana_vocabulary",
+  "url": "https://api.wanikani.com/v2/subjects/9179",
+  "data_updated_at": "2026-10-02T00:07:31.186411Z",
+  "data": {
+   "created_at": "2023-04-18T18:12:48.999787Z",
+   "level": 3,
+   "slug": "これ",
+   "hidden_at": null,
+   "document_url": "https://www.wanikani.com/vocabulary/%E3%81%93%E3%82%8C",
+   "characters": "これ",
+   "meanings": [
+    {
+     "meaning": "This One",
+     "primary": true,
+     "accepted_answer": true
+    },
+    {
+     "meaning": "These Ones",
+     "primary": false,
+     "accepted_answer": true
+    }
+   ],
+   "auxiliary_meanings": [
+    {
+     "meaning": "This",
+     "type": "whitelist"
+    },
+    {
+     "meaning": "These",
+     "type": "whitelist"
+    },
+    {
+     "meaning": "Which One",
+     "type": "blacklist"
+    },
+    {
+     "meaning": "That One",
+     "type": "blacklist"
+    },
+    {
+     "meaning": "Those Ones",
+     "type": "blacklist"
+    },
+    {
+     "meaning": "Those",
+     "type": "blacklist"
+    }
+   ],
+   "parts_of_speech": [
+    "pronoun",
+    "こそあど word"
+   ],
+   "meaning_mnemonic": "<reading>Colle</reading>ct (これ) <vocabulary>this one</vocabulary> right here! Go ahead, collect this one.\n\nYou can use これ to talk about anything that's close to you. Things that are close to you are easy to collect, after all!",
+   "context_sentences": [
+    {
+     "en": "This one is Mt Fuji.",
+     "ja": "これがふじ山です。"
+    },
+    {
+     "en": "This is a pen.",
+     "ja": "これはペンです。"
+    },
+    {
+     "en": "Give me two of these, please.",
+     "ja": "これを二つ下さい。"
+    }
+   ],
+   "pronunciation_audios": [
+    {
+     "url": "https://files.wanikani.com/43ep2b05pga82v37kwr1mqzq6fc9",
+     "metadata": {
+      "gender": "male",
+      "source_id": 44761,
+      "pronunciation": "これ",
+      "voice_actor_id": 2,
+      "voice_actor_name": "Kenichi",
+      "voice_description": "Tokyo accent"
+     },
+     "content_type": "audio/webm"
+    },
+    {
+     "url": "https://files.wanikani.com/ikrc81vrqt5bf0qup2fshig9g61e",
+     "metadata": {
+      "gender": "male",
+      "source_id": 44761,
+      "pronunciation": "これ",
+      "voice_actor_id": 2,
+      "voice_actor_name": "Kenichi",
+      "voice_description": "Tokyo accent"
+     },
+     "content_type": "audio/mpeg"
+    },
+    {
+     "url": "https://files.wanikani.com/zy3zzaavpsf9mitdploc9lm9fkkf",
+     "metadata": {
+      "gender": "female",
+      "source_id": 44702,
+      "pronunciation": "これ",
+      "voice_actor_id": 1,
+      "voice_actor_name": "Kyoko",
+      "voice_description": "Tokyo accent"
+     },
+     "content_type": "audio/mpeg"
+    },
+    {
+     "url": "https://files.wanikani.com/ct3foozf62j5qk8ihycn6x59pdbr",
+     "metadata": {
+      "gender": "female",
+      "source_id": 44702,
+      "pronunciation": "これ",
+      "voice_actor_id": 1,
+      "voice_actor_name": "Kyoko",
+      "voice_description": "Tokyo accent"
+     },
+     "content_type": "audio/webm"
+    }
+   ],
+   "lesson_position": 62,
+   "spaced_repetition_system_id": 1
+  }
+ },
+ {
+  "id": 9184,
+  "object": "kana_vocabulary",
+  "url": "https://api.wanikani.com/v2/subjects/9184",
+  "data_updated_at": "2026-10-02T00:07:31.186411Z",
+  "data": {
+   "created_at": "2023-04-24T21:57:04.910366Z",
+   "level": 3,
+   "slug": "いつ",
+   "hidden_at": null,
+   "document_url": "https://www.wanikani.com/vocabulary/%E3%81%84%E3%81%A4",
+   "characters": "いつ",
+   "meanings": [
+    {
+     "meaning": "When",
+     "primary": true,
+     "accepted_answer": true
+    }
+   ],
+   "auxiliary_meanings": [
+    {
+     "meaning": "Then",
+     "type": "blacklist"
+    }
+   ],
+   "parts_of_speech": [
+    "pronoun"
+   ],
+   "meaning_mnemonic": "He <reading>eats</reading> (いつ) and eats and eats. <vocabulary>When</vocabulary> does this guy not eat?\n\nいつ is a question word that is used to ask <vocabulary>when</vocabulary>.",
+   "context_sentences": [
+    {
+     "en": "When will you do it?",
+     "ja": "いつするの？"
+    },
+    {
+     "en": "Until when are you in the U.S.?",
+     "ja": "いつまでアメリカ？"
+    },
+    {
+     "en": "From when will you be in Canada?",
+     "ja": "いつからカナダ？"
+    }
+   ],
+   "pronunciation_audios": [
+    {
+     "url": "https://files.wanikani.com/9ra2zavkl6qybuyjlnep1o131jr0",
+     "metadata": {
+      "gender": "male",
+      "source_id": 44754,
+      "pronunciation": "いつ",
+      "voice_actor_id": 2,
+      "voice_actor_name": "Kenichi",
+      "voice_description": "Tokyo accent"
+     },
+     "content_type": "audio/webm"
+    },
+    {
+     "url": "https://files.wanikani.com/2z6cwn18tj3og6yu01kyq25dd39a",
+     "metadata": {
+      "gender": "male",
+      "source_id": 44754,
+      "pronunciation": "いつ",
+      "voice_actor_id": 2,
+      "voice_actor_name": "Kenichi",
+      "voice_description": "Tokyo accent"
+     },
+     "content_type": "audio/mpeg"
+    },
+    {
+     "url": "https://files.wanikani.com/z919ia0rrf2zwetam0wvec1q7k4q",
+     "metadata": {
+      "gender": "female",
+      "source_id": 44695,
+      "pronunciation": "いつ",
+      "voice_actor_id": 1,
+      "voice_actor_name": "Kyoko",
+      "voice_description": "Tokyo accent"
+     },
+     "content_type": "audio/webm"
+    },
+    {
+     "url": "https://files.wanikani.com/0viyq5e2mwdlador64rpzahoi4ae",
+     "metadata": {
+      "gender": "female",
+      "source_id": 44695,
+      "pronunciation": "いつ",
+      "voice_actor_id": 1,
+      "voice_actor_name": "Kyoko",
+      "voice_description": "Tokyo accent"
+     },
+     "content_type": "audio/mpeg"
+    }
+   ],
+   "lesson_position": 67,
+   "spaced_repetition_system_id": 1
+  }
+ },
+ {
+  "id": 8766,
+  "object": "radical",
+  "url": "https://api.wanikani.com/v2/subjects/8766",
+  "data_updated_at": "2026-10-02T00:07:31.186411Z",
+  "data": {
+   "created_at": "2012-03-01T21:30:51.000000Z",
+   "level": 4,
+   "slug": "beggar",
+   "hidden_at": null,
+   "document_url": "https://www.wanikani.com/radicals/beggar",
+   "characters": null,
+   "character_images": [
+    {
+     "url": "https://files.wanikani.com/a5hm25g0yev9mmabgx56q8b1xao3",
+     "metadata": {
+      "color": "#000000",
+      "dimensions": "1024x1024",
+      "style_name": "original"
+     },
+     "content_type": "image/png"
+    },
+    {
+     "url": "https://files.wanikani.com/p6of5uhr8tbg3d40tkz7vcm73xhe",
+     "metadata": {
+      "color": "#000000",
+      "dimensions": "1024x1024",
+      "style_name": "1024px"
+     },
+     "content_type": "image/png"
+    },
+    {
+     "url": "https://files.wanikani.com/60d5xb33cykph9lvf7qvwop5c78x",
+     "metadata": {
+      "color": "#000000",
+      "dimensions": "512x512",
+      "style_name": "512px"
+     },
+     "content_type": "image/png"
+    },
+    {
+     "url": "https://files.wanikani.com/2m3rommgcd460nk03dd26gg7xzvu",
+     "metadata": {
+      "color": "#000000",
+      "dimensions": "256x256",
+      "style_name": "256px"
+     },
+     "content_type": "image/png"
+    },
+    {
+     "url": "https://files.wanikani.com/3w7owodc1sryl4lgnvai0fr0uvgj",
+     "metadata": {
+      "color": "#000000",
+      "dimensions": "128x128",
+      "style_name": "128px"
+     },
+     "content_type": "image/png"
+    },
+    {
+     "url": "https://files.wanikani.com/s8n8dq3lta5n5tlhw43s8o8tqdmg",
+     "metadata": {
+      "color": "#000000",
+      "dimensions": "64x64",
+      "style_name": "64px"
+     },
+     "content_type": "image/png"
+    },
+    {
+     "url": "https://files.wanikani.com/g5y5yjbcc5a92hsfwef8rqjnfh34",
+     "metadata": {
+      "color": "#000000",
+      "dimensions": "32x32",
+      "style_name": "32px"
+     },
+     "content_type": "image/png"
+    },
+    {
+     "url": "https://files.wanikani.com/8v0hjy2gh2dnmh1cgbcg8cedpd58",
+     "metadata": {
+      "inline_styles": true
+     },
+     "content_type": "image/svg+xml"
+    }
+   ],
+   "meanings": [
+    {
+     "meaning": "Beggar",
+     "primary": true,
+     "accepted_answer": true
+    }
+   ],
+   "auxiliary_meanings": [],
+   "amalgamation_subject_ids": [
+    531,
+    576,
+    1249,
+    2443
+   ],
+   "meaning_mnemonic": "Doesn't this look like someone on their knees, holding their clasped hands out and begging for something (forgiveness, their life, a promotion, etc.)? That's why this radical is known as the <radical>beggar</radical>.",
+   "lesson_position": 42,
+   "spaced_repetition_system_id": 1
+  }
+ }
+]
