@@ -21,7 +21,7 @@ from ..domain.ordering import order_lessons
 from ..domain.session import ItemCompleted, Session, SessionItem
 from ..store.db import connect
 from ..store.repo import Repo
-from ..store.sync import StaleSubmission, SyncEngine
+from ..store.sync import FlushResult, StaleSubmission, SyncEngine
 from ..timefmt import iso, utcnow
 from .commands import Command, CommandError, Registry, complete_set
 from .screens.base import DurtleScreen
@@ -73,6 +73,7 @@ class DurtleApp(App):
         self._wake = asyncio.Event()
         self._want_sync = True
         self._syncing = False
+        self._report_sync = False  # a manual sync is waiting to report its outcome
         self._sync_task: asyncio.Task | None = None
         self.commands = Registry()
         self._register_commands()
@@ -135,6 +136,7 @@ class DurtleApp(App):
         self._want_sync = True
         self._wake.set()
         if manual and self.sync is not None:
+            self._report_sync = True
             self.message("syncing…")
 
     def request_flush(self) -> None:
@@ -146,17 +148,23 @@ class DurtleApp(App):
             wait = SYNC_INTERVAL
             self._wake.clear()  # requests arriving during the sync wake the next round
             try:
-                await self.sync_now(full=self._want_sync)
+                result = await self.sync_now(full=self._want_sync)
                 backoff = BACKOFF_START
-            except NetworkError:
+                if result is not None:
+                    self._sync_report(result)
+            except NetworkError as exc:
                 wait = backoff
                 backoff = min(backoff * 2, BACKOFF_MAX)
+                if self._report_sync:
+                    self._report_sync = False
+                    self.message(f"sync failed: {exc} — retrying in {wait}s", error=True)
             except AuthError:
                 self._auth_failed()
                 return
             except asyncio.CancelledError:
                 raise
             except Exception as exc:  # keep the worker alive whatever happens
+                self._report_sync = False
                 self.notify(f"sync failed: {exc}", severity="error", markup=False)
                 wait = backoff
                 backoff = min(backoff * 2, BACKOFF_MAX)
@@ -165,21 +173,26 @@ class DurtleApp(App):
             except TimeoutError:
                 self._want_sync = True
 
-    async def sync_now(self, full: bool = True) -> None:
-        """Flush the outbox and (if ``full``) sync. Raises NetworkError when offline."""
+    async def sync_now(self, full: bool = True) -> FlushResult | None:
+        """Flush the outbox and (if ``full``) sync. Raises NetworkError when offline.
+
+        Returns the result of a full sync, None otherwise.
+        """
         assert self.sync is not None and self.repo is not None
         if self._syncing:
-            return
+            return None
         self._syncing = True
         try:
             if full:
-                await self.sync.run_once()
+                result = await self.sync.run_once()
                 self.repo.set_meta("last_sync_at", iso(self.now()))
                 self._want_sync = False
+                return result
             else:
                 result = await self.sync.flush()
                 if result.offline:
                     raise NetworkError("offline")
+                return None
         except RateLimited:
             self.sync_progress = ""
             raise NetworkError("rate limited") from None
@@ -189,6 +202,18 @@ class DurtleApp(App):
         finally:
             self._syncing = False
             self.refresh_views()
+
+    def _sync_report(self, result: FlushResult) -> None:
+        """Tell the user a sync they asked for finished."""
+        if not self._report_sync:
+            return
+        self._report_sync = False
+        parts = [f"{result.updated} record(s) updated" if result.updated else "already up to date"]
+        if result.sent:
+            parts.append(f"{result.sent} answer(s) sent")
+        if result.dropped:
+            parts.append(f"{result.dropped} discarded")
+        self.message(f"sync complete · {' · '.join(parts)}")
 
     def _auth_failed(self) -> None:
         self.notify("WaniKani rejected the API token (401). Please enter a new one.", severity="error")

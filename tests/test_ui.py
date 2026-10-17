@@ -480,3 +480,19 @@ async def test_flick_practice(env):
         await pilot.press("escape", "q")
         assert isinstance(app.screen, DashboardScreen)
         assert app.repo.outbox_count() == 0  # practice never reaches WaniKani
+
+
+async def test_manual_sync_reports_outcome(env):
+    app = env(autosync=True)
+    async with app.run_test(size=SIZE) as pilot:
+        await pilot.pause(0.1)
+        await pilot.press("s")  # offline
+        await pilot.pause(0.1)
+        msg = app.screen.query_one("#cmd-msg")
+        assert "sync failed" in str(msg.render())
+        assert app.sync_progress == ""
+        env.server.online = True
+        await pilot.press("s")
+        await pilot.pause(0.2)
+        assert "sync complete" in str(msg.render())
+        assert "Last sync" in str(app.screen.query_one("#sync-state").render())

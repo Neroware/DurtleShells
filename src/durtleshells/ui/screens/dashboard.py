@@ -118,7 +118,7 @@ class DashboardScreen(DurtleScreen):
         last = app.repo.meta("last_sync_at")
         if last:
             dt = parse(last)
-            text.append(f"Last sync: {dt.astimezone().strftime('%Y-%m-%d %H:%M')}" if dt else "")
+            text.append(f"Last sync: {dt.astimezone().strftime('%Y-%m-%d %H:%M:%S')}" if dt else "")
         elif not app.sync_progress:
             text.append("Not synced yet — press s")
         pending = app.repo.outbox_count()

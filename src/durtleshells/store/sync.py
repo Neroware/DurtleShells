@@ -42,6 +42,7 @@ class FlushResult:
     sent: int = 0
     dropped: int = 0
     offline: bool = False
+    updated: int = 0  # records changed by the sync that followed (run_once only)
 
 
 ProgressCallback = Callable[[str], None]
@@ -85,33 +86,42 @@ class SyncEngine:
 
     # ---- sync --------------------------------------------------------------
 
-    async def sync(self) -> None:
-        """Fetch user + every collection updated since the last sync and upsert it."""
+    async def sync(self) -> int:
+        """Fetch user + every collection updated since the last sync and upsert it.
+
+        Returns how many records changed.
+        """
+        updated = 0
         try:
             user = await self.client.get_user()
             self.repo.set_user(user.data)
             for name in COLLECTIONS:
-                await self._sync_collection(name)
+                updated += await self._sync_collection(name)
         except NetworkError:
             self.online = False
             raise
+        finally:
+            self.on_progress("")
         self.online = True
-        self.on_progress("")
+        return updated
 
-    async def _sync_collection(self, name: str) -> None:
+    async def _sync_collection(self, name: str) -> int:
         key = f"last_sync_{name}"
         since = self.repo.meta(key)
         fetch = getattr(self.client, name)
         newest: str | None = None
+        count = 0
         upsert = getattr(self.repo, f"upsert_{name}")
         async for page in fetch(since):
             upsert(page.items)
+            count += len(page.items)
             newest = page.data_updated_at or newest
             if page.total_pages > 1 or page.items:
                 self.on_progress(f"Syncing {LABELS[name]} {page.index}/{page.total_pages}…")
         # Only move the cursor forward once the whole collection arrived.
         if newest:
             self.repo.set_meta(key, newest)
+        return count
 
     # ---- outbox ------------------------------------------------------------
 
@@ -171,5 +181,5 @@ class SyncEngine:
         result = await self.flush()
         if result.offline:
             raise NetworkError("offline")
-        await self.sync()
+        result.updated = await self.sync()
         return result
