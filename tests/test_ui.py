@@ -454,3 +454,29 @@ async def test_quit_offline_with_pending_asks_first(env):
         await pilot.press("enter")
         await pilot.pause(0.1)
     assert not app.is_running
+
+
+# ---- flick practice ---------------------------------------------------------
+
+async def test_flick_practice(env):
+    from durtleshells.ui.screens.practice import PracticeScreen
+
+    app = env()
+    async with app.run_test(size=SIZE) as pilot:
+        await pilot.press("k")
+        screen = app.screen
+        assert isinstance(screen, PracticeScreen)
+        assert screen.query_one("#flick-wrap").display
+        subject = screen.subject
+        assert subject is not None and subject.object == "vocabulary"
+        await type_text(pilot, "zzz")
+        await pilot.press("enter")
+        assert not screen.solved and screen.attempted == 1
+        screen.answer.value = subject.primary_reading
+        await pilot.press("enter")
+        assert screen.solved and screen.correct == 1
+        await pilot.press("enter")  # next word
+        assert not screen.solved
+        await pilot.press("escape", "q")
+        assert isinstance(app.screen, DashboardScreen)
+        assert app.repo.outbox_count() == 0  # practice never reaches WaniKani

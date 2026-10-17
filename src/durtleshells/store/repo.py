@@ -125,6 +125,16 @@ class Repo:
                 result[sid] = s
         return result
 
+    def practice_subject_ids(self, max_level: int) -> list[int]:
+        """Vocabulary ids up to ``max_level`` for the flick practice screen."""
+        rows = self.conn.execute(
+            """SELECT id FROM subjects
+               WHERE object = 'vocabulary' AND hidden_at IS NULL
+                 AND level <= ? ORDER BY id""",
+            (max_level,),
+        ).fetchall()
+        return [r[0] for r in rows]
+
     def subject_count(self) -> int:
         return self.conn.execute("SELECT COUNT(*) FROM subjects").fetchone()[0]
 

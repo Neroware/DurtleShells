@@ -37,6 +37,7 @@ class DashboardScreen(DurtleScreen):
         Binding("r", "reviews", "reviews", show=False),
         Binding("l", "lessons", "lessons", show=False),
         Binding("s", "sync", "sync", show=False),
+        Binding("k", "practice", "flick practice", show=False),
         Binding("q", "quit", "quit", show=False),
     ]
 
@@ -78,7 +79,7 @@ class DashboardScreen(DurtleScreen):
         self.query_one("#sync-state", Static).update(self._sync_state())
         s = app.config.settings
         self.query_one("#footer", Static).update(Text(
-            "[r] reviews  [l] lessons  [s] sync  [?] help  [:] command  [q] quit\n"
+            "[r] reviews  [l] lessons  [k] flick practice  [s] sync  [?] help  [:] command  [q] quit\n"
             f"order: {s['order']} · lessons: {s['lesson_order']} · first: {s['first']}"
         ))
 
@@ -130,6 +131,9 @@ class DashboardScreen(DurtleScreen):
 
     def action_lessons(self) -> None:
         self.app.start_lessons()
+
+    def action_practice(self) -> None:
+        self.app.start_practice()
 
     def action_sync(self) -> None:
         self.app.request_sync(manual=True)

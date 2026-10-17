@@ -14,7 +14,8 @@ from .base import DurtleScreen
 
 KEYS = [
     ("Dashboard", [
-        ("r", "start reviews"), ("l", "start lessons"), ("s", "sync now"),
+        ("r", "start reviews"), ("l", "start lessons"), ("k", "flick practice"),
+        ("s", "sync now"),
         ("?", "this help"), ("q", "quit"),
     ]),
     ("Quiz (while asking)", [
@@ -45,6 +46,7 @@ COMMANDS = [
     (":q  :quit", "leave the session / quit (:q! skips confirmation)"),
     (":sync", "flush queued answers, then sync with WaniKani"),
     (":reviews  :lessons", "start a review / lesson session"),
+    (":flick  :practice", "type vocabulary readings with the flick keyboard (nothing is sent)"),
     (":wrap", "toggle wrap-up"),
     (":set key=value", "change a setting (saved immediately); :set key? shows it"),
     (":set flick  :set noflick  :set flick!", "booleans: on / off / toggle"),

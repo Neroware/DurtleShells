@@ -51,7 +51,7 @@ The cache and the answer queue live in `~/.local/share/durtleshells/durtleshells
 
 | Where | Key | Action |
 |---|---|---|
-| Dashboard | `r` / `l` / `s` / `q` | reviews / lessons / sync / quit |
+| Dashboard | `r` / `l` / `k` / `s` / `q` | reviews / lessons / flick practice / sync / quit |
 | Anywhere | `:` | command line (Tab completes) |
 | Anywhere | `?` | help |
 | Quiz, typing | `Enter` | submit |
@@ -78,6 +78,7 @@ Doubled consonants type っ. UPPERCASE types katakana.
 | `:q`, `:q!` | leave the session, or quit (`!` skips the confirmation) |
 | `:sync` | send queued answers, then sync with WaniKani |
 | `:reviews`, `:lessons` | start a review or lesson session |
+| `:flick` | practise the flick keyboard on vocabulary readings (nothing is sent) |
 | `:wrap` | toggle wrap-up |
 | `:help` | show help |
 | `:set key=value` | change a setting (saved immediately) |

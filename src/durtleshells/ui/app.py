@@ -30,6 +30,7 @@ from .screens.dashboard import DashboardScreen
 from .screens.help import HelpScreen
 from .screens.lesson import LessonScreen
 from .screens.onboarding import OnboardingScreen
+from .screens.practice import MIN_PRACTICE_LEVEL, PracticeScreen
 from .screens.quiz import QuizScreen
 
 ClientFactory = Callable[[str], WaniKaniClient]
@@ -301,6 +302,19 @@ class DurtleApp(App):
         batch = [(by_id[item.assignment_id], item.subject) for item in items[:size]]
         self.push_screen(LessonScreen(batch))
 
+    def start_practice(self) -> None:
+        assert self.repo is not None
+        if self._in_session() or isinstance(self.screen, PracticeScreen):
+            self.message("E: finish the current session first", error=True)
+            return
+        user = self.repo.user()
+        level = max(user.level if user else 1, MIN_PRACTICE_LEVEL)
+        ids = self.repo.practice_subject_ids(level) or self.repo.practice_subject_ids(999)
+        if not ids:
+            self.message("No vocabulary synced yet — run :sync first", error=True)
+            return
+        self.push_screen(PracticeScreen(ids))
+
     def start_lesson_quiz(self, batch: list[tuple[Assignment, Subject]]) -> None:
         items = [SessionItem.build(a, s, self.config.settings["first"], self.rng) for a, s in batch]
         self.switch_screen(QuizScreen(self._session(items, "lesson", "random")))
@@ -366,6 +380,8 @@ class DurtleApp(App):
         r.register(Command("sync", self._cmd_sync, "flush queued answers and sync"))
         r.register(Command("reviews", lambda a, b: self._cmd_start("review"), "start reviews"))
         r.register(Command("lessons", lambda a, b: self._cmd_start("lesson"), "start lessons"))
+        r.register(Command("flick", self._cmd_flick, "practise the flick keyboard",
+                           aliases=("practice",)))
         r.register(Command("wrap", self._cmd_wrap, "toggle wrap-up", aliases=("wrapup",)))
         r.register(Command("set", self._cmd_set, "change settings", args="key=value",
                            completions=complete_set))
@@ -390,6 +406,11 @@ class DurtleApp(App):
             self.start_reviews()
         else:
             self.start_lessons()
+
+    def _cmd_flick(self, arg: str, bang: bool) -> None:
+        if self.repo is None:
+            raise CommandError("E: not logged in yet")
+        self.start_practice()
 
     def _cmd_wrap(self, arg: str, bang: bool) -> None:
         screen = self.screen
